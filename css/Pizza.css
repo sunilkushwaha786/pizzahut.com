@@ -20,6 +20,9 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
+
+/* header css */
+
 header{
 	position: fixed;
 	width: 100%;
@@ -44,6 +47,9 @@ span{
 .navbar{
 	display: flex;
 }
+
+/* navbar  */
+
 .navbar a{
 	color: var(--text-color);
 	font-size: var(--p-font);
@@ -280,6 +286,9 @@ header.sticky{
 	border-radius: 5rem;
 }
 
+/* media quary css on head 
+ */
+ 
 @media (max-width: 1690px){
 	section{
 		padding: 70px 2%;

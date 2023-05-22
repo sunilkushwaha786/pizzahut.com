@@ -1,3 +1,5 @@
+// header frezzing
+
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", function(){
@@ -5,24 +7,25 @@ window.addEventListener("scroll", function(){
 
 })
 
-let menu = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
 
-menu.onclick = () => {
-	menu.classList.toggle('bx-x');
-	navbar.classList.toggle('open');
-}
+// let menu = document.querySelector('#menu-icon');
+// let navbar = document.querySelector('.navbar');
 
-window.onscroll = () => {
-	menu.classList.remove('bx-x');
-	navbar.classList.remove('open');
-}
+// menu.onclick = () => {
+// 	menu.classList.toggle('bx-x');
+// 	navbar.classList.toggle('open');
+// }
 
-const sr = ScrollReveal ({
-	distance: '30px', 
-	duration: 2500,
-	reset: true
-})
-sr.reveal('.home-text',{delay:200, origin:'left'});
-sr.reveal('.home-img',{delay:200, origin:'right'});
-sr.reveal('.container, .about, .menu, .contact',{delay:200, origin:'bottom'});
+// window.onscroll = () => {
+// 	menu.classList.remove('bx-x');
+// 	navbar.classList.remove('open');
+// }
+
+// const sr = ScrollReveal ({
+// 	distance: '30px', 
+// 	duration: 2500,
+// 	reset: true
+// })
+// sr.reveal('.home-text',{delay:200, origin:'left'});
+// sr.reveal('.home-img',{delay:200, origin:'right'});
+// sr.reveal('.container, .about, .menu, .contact',{delay:200, origin:'bottom'});
